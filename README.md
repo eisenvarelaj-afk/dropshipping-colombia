@@ -22,6 +22,11 @@ npm test
 - `dist/calculator.js`: cálculo y validación de valores.
 - `tests/`: pruebas de margen, equilibrio, pérdidas y entradas inválidas.
 - `DESIGN.md`: decisiones de diseño y relación con la referencia.
+- `VERIFICATION.md`: comprobaciones realizadas y sus límites.
+
+## Publicación
+
+GitHub Pages sirve la rama `gh-pages`, desde su raíz. La rama `main` conserva el código, documentación y pruebas. Para actualizar el sitio, prueba los cambios en `main` y publica el contenido de `dist/` en la raíz de `gh-pages`. Un cambio únicamente en `main` no actualiza automáticamente la versión publicada.
 
 ## Alcance del simulador
 
